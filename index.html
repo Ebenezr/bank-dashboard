@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dashboard</title>
+    <title>Dashboard</title>
 </head>
 <body>
     <main>
@@ -19,7 +19,7 @@
         </header>
         <nav>
             <div class="logo"></div>
-            <fieldset class="nav__manage" title="Manage">
+            <fieldset class="nav__manage" title="manage">
                 <legend>Manage</legend>
                 <button class="nav__btn btn btn-pry">Dashboard</button>
                 <button class="nav__btn btn btn-pry">Analytics</button>
@@ -27,21 +27,21 @@
                 <button class="nav__btn btn btn-pry">Notification</button>
                 <button class="nav__btn btn btn-pry">Settings</button>
             </fieldset>
-            <fieldset class="nav__preference">
+            <fieldset class="nav__preference" title="preference">
                 <legend>Preference</legend>
-                <label for="theme">Theme</label>
+                <label class="switch">Theme
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
                 <label for="security">Security</label>
             </fieldset>
             <div class="profile">
-                <img src="#" alt="">
+                <img src="#" alt="&nbsp;">
                 <h4>Bukosia Ebenezar</h4>
                 <h6>Product designer</h6>
-
             </div>
-
         </nav>
         <section class="main-container"></section>
-    </main>
-    
+    </main> 
 </body>
 </html>
