@@ -1,0 +1,21 @@
+@import "./variables";
+nav{
+    @include flexCenter(column);
+    background-color: $primary_1;
+    grid-area: nav;
+    color: #fff;
+    padding: 2rem 1rem;
+    .nav__manage{
+        @include flexCenter(column);
+        padding: 0.5rem 0;
+        border: none;
+        nav__btn{
+
+        }
+    }
+    .nav__preference{
+        border: none;
+        @include flexCenter(column);
+
+    }
+}
