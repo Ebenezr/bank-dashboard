@@ -14,17 +14,21 @@ body{
         width: 100%;
         background-color: $primary_2;
         display: grid;
-        grid-template-columns: 10% 1fr;
+        grid-template-columns: 15% 1fr;
         grid-template-areas: "nav main";
           
           
 }}  
-@mixin flexCenter($direction) {
+@mixin flexCenter($direction,$gap) {
     display: flex;
     flex-direction: $direction;
-    gap:0.5rem;
+    gap:$gap + 1px;
 } 
 .btn{
     border:none;
+    background: transparent;
+    color: $primary_2;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
 }
 @import "./nav";

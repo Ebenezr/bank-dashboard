@@ -1,15 +1,17 @@
 @import "./variables";
 nav{
-    @include flexCenter(column);
+    @include flexCenter(column,2);
     background-color: $primary_1;
     grid-area: nav;
     color: #fff;
     padding: 2rem 1rem;
     .nav__manage{
-        @include flexCenter(column);
+        @include flexCenter(column,5);
         padding: 0.5rem 0;
         border: none;
-        nav__btn{
+        .nav__btn{
+            background-color: rgba(128, 128, 128, 0.442) !important;
+            text-align: left;
 
         }
     }
